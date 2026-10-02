@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "FFmpegLib is a technical library mod for Minecraft NeoForge 1.21.1 that integrates FFmpeg multimedia capabilities directly into the game"
+  }
+}

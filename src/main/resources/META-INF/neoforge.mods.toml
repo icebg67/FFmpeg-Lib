@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="ffmpeglib"
+version="0.6.9"
+displayName="ffmpeglib"
+displayURL="https://discord.gg/BpshSf8jhP"
+logoFile="logo.png"
+credits="Made by FLYover67"
+authors="FLYover67"
+description="FFmpegLib is a technical library mod for Minecraft NeoForge 1.21.1 that integrates FFmpeg multimedia capabilities directly into the game"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ffmpeglib]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ffmpeglib]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

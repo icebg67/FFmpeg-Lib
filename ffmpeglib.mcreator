@@ -1,0 +1,94 @@
+{
+  "mod_elements": [
+    {
+      "name": "Downloader",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "downloader",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglib/Downloader.java"
+        ]
+      }
+    },
+    {
+      "name": "MediaSecuritySanitizer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "media_security_sanitizer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglib/MediaSecuritySanitizer.java"
+        ]
+      }
+    },
+    {
+      "name": "FFmpegOrchestrator",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "f_fmpeg_orchestrator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglib/FFmpegOrchestrator.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedMediaProcessor",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advanced_media_processor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglib/AdvancedMediaProcessor.java"
+        ]
+      }
+    },
+    {
+      "name": "FFmpegProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "f_fmpeg_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglib/FFmpegProvider.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ffmpeglib",
+    "modName": "ffmpeglib",
+    "version": "0.6.9",
+    "description": "FFmpegLib is a technical library mod for Minecraft NeoForge 1.21.1 that integrates FFmpeg multimedia capabilities directly into the game",
+    "author": "FLYover67",
+    "websiteURL": "https://discord.gg/BpshSf8jhP",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "images",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Made by FLYover67",
+    "modElementsPackage": "net.mcreator.ffmpeglib"
+  },
+  "mcreatorVersion": 202400452410
+}
